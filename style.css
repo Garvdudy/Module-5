@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(121, 15, 15);
+}
+
+nav{
+    margin: -1%;
+    height: 200px;
+    width: 101.5%;
+    background-color: rgb(212, 177, 51);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#logo{
+    background: url('restaurant-logo_large.png') no-repeat;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#name{
+    margin-top: 60px;
+    margin-left: -55px;
+    color: rgb(33, 104, 33);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+#button{
+    margin-top: 70px;
+
+}
+
+h2{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(159, 53, 53);
+}
+
+#number{
+    margin-top: 30px;
+    font-size: 1.4rem;
+}
+
+#deliver{
+    color: black;
+}
+
+a:hover{
+    background-color: aliceblue;
+}
+
+#body{
+    padding-top: 60px;
+    font-size: 1.3rem;
+    color: aliceblue;
+    height: 150px;
+    /* background-color: aliceblue; */
+}
+
+footer{
+    height: 240px;
+    margin-left: -10px;
+    width: 101%;
+    background-color: rgb(36, 36, 36);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: aliceblue;
+}
+
+#hours{
+    margin-left: 100px;
+}
+
+#address{
+    margin-left: 10px;
+}
+
+#text{
+    font-size: 1.2rem;
+}
+
+#copy{
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+    margin-left: -10px;
+    width: 101%;    
+}
